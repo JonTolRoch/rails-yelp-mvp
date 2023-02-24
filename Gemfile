@@ -22,6 +22,7 @@ gem "importmap-rails"
 gem "turbo-rails"
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
+gem "faker"
 gem "stimulus-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
@@ -62,5 +63,5 @@ group :development do
 end
 
 gem 'rspec-rails', group: [ :test ]
-gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
+gem "simple_form", github: "heartcombo/simple_form"
